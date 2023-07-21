@@ -1,0 +1,101 @@
+.Nombre{
+    display: inline-block;
+    background-color: #767fef; 
+    color: #ffffff; 
+    padding: 15px; 
+    margin-left: 110px;
+    border-radius: 10px;
+    font-family: 'Anonymous Pro', monospace;
+  };
+  .float-end {
+    background-color: #767fef; 
+    height: 50px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  li {
+    padding: 5px 10px;
+  }
+  
+  a {
+    color: #eaeaf1;
+    text-decoration: none;
+    background-color: #767fef;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  a:hover {
+    border: 1px solid #767fef; /* Borde del enlace al pasar el mouse por encima */
+    padding: 4px 9px; /* Ajuste del tamaño del recuadro */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+*{
+    background-color:  #c3c7ff;
+}
+img{
+    padding-left: 55px;
+}
+.image-container {
+    display: flex;
+    align-items: center;
+    padding-top: 95px;  }
+
+
+.image-container img {
+    margin-right: 120px; /* Espaciado entre la imagen y el texto */
+  }
+.frase{
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
+    margin: 30px;
+    text-align:center;
+    color:#eaeaf1 ;
+}
+main{
+    padding-top: 50px;
+}
+.navbar-container {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    background-color: #c3c7ff; /* Color lila de fondo para el contenedor */
+    height: 50px;
+    padding: 0 20px; /* Espaciado en los lados del contenedor */
+  }
+  .image-container2 {
+    display: flex;
+    align-items: center;
+    padding-top: 95px;  }
+
+
+.image-container2 img {
+    margin-right: 120px; /* Espaciado entre la imagen y el texto */
+  }
+  .frase2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
+    text-align:center;
+    color:#eaeaf1 ;
+    display: inline-block;
+    background-color: #767fef; 
+    color: #ffffff; 
+    padding: 20px;
+    margin-right: 110px;
+    border-radius: 10px;   
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: xx-large;
+    text-align:center; 
+    color:#eaeaf1 ;
+    font-weight:bolder;
+}
